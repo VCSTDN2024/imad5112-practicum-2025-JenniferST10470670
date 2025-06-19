@@ -5,9 +5,26 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-  android:background="@drawable/background"
+ android:background="@drawable/wallpaper"
 
     tools:context=".DetailedActivity">
+
+
+    <TextView
+        android:id="@+id/textTV"
+        android:layout_width="259dp"
+        android:layout_height="165dp"
+        android:text="My List Display"
+        android:textColor="@color/purble"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.401"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072" />
 
     <TextView
         android:id="@+id/textList"
@@ -69,6 +86,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.812" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

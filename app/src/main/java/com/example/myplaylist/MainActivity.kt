@@ -77,12 +77,13 @@ class MainActivity : AppCompatActivity() {
                 putIntegerArrayListExtra("ratings", ArrayList(ratings))
 
             }
-            startActivity(intent)
+            startActivity(intent) // start button
         }
 
         existBtn.setOnClickListener {
             finish()
         }
+
     }
 }
 
