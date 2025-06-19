@@ -8,6 +8,7 @@
     android:orientation="vertical"
     android:padding="15dp"
     android:layout_gravity="center"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
 
@@ -26,6 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="21sp"
+
         android:hint="enter the song tile "
         android:layout_marginTop="8dp"
         android:layout_gravity="center_horizontal"
@@ -81,16 +83,31 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/blue"
         android:layout_marginTop="22dp"
-        android:text="Add detail"
+        android:text="detail"
 
         />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="22dp"
+        android:text="ADD"
+
+        />
+
 
     <Button
         android:id="@+id/nextBtn"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+      android:textColor="@color/black"
         android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/purble"
         android:layout_marginTop="22dp"
         android:text="Next"/>
 
@@ -99,6 +116,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/purble"
         android:layout_marginTop="8dp"
         android:text="Exist"/>
 
